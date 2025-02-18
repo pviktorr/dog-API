@@ -1,0 +1,26 @@
+*{
+    padding: 0 ; 
+    box-sizing: border-box;
+    margin: 0;
+}
+.pesquisa{
+    display: flex   ;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;   
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.galeria img{
+    
+    padding: 5px;
+    border-radius: 10px;
+    width: 40vh;
+    height: 15vw;
+    border: 1px solid gray;
+}
